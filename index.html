@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ranu Kumbolo Paradise - Destinasi Wisata Danau Terbaik</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Ranu <span>Kumbolo</span></div>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#accomodation">Akomodasi</a></li>
+                    <li><a href="#packages">Paket Wisata</a></li>
+                    <li><a href="#facilities">Fasilitas</a></li>
+                    <li><a href="#gallery">Galeri</a></li>
+                    <li><a href="#contact">Kontak</a></li>
+                </ul>
+                <a href="booking.html" class="btn">Booking Sekarang</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Ranu Kumbolo Paradise</h1>
+                <p>Nikmati keindahan danau eksotis dengan fasilitas terbaik untuk liburan tak terlupakan</p>
+                <a href="#packages" class="btn">Lihat Paket Wisata</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Accomodation Section -->
+    <section id="accomodation">
+        <div class="container">
+            <div class="section-title">
+                <h2>Akomodasi Terbaik</h2>
+                <p>Pilih penginapan yang sesuai dengan kebutuhan liburan Anda</p>
+            </div>
+            <div class="accomodation-grid">
+                <div class="accomodation-card">
+                    <div class="accomodation-img" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945');"></div>
+                    <div class="accomodation-content">
+                        <h3>Standard Room</h3>
+                        <p>Kamar nyaman dengan fasilitas lengkap untuk perjalanan bisnis atau liburan singkat.</p>
+                        <div class="price">Rp 1.250.000/malam</div>
+                        <a href="booking.html" class="btn">Pesan Sekarang</a>
+                    </div>
+                </div>
+                <div class="accomodation-card">
+                    <div class="accomodation-img" style="background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b');"></div>
+                    <div class="accomodation-content">
+                        <h3>Lake View Room</h3>
+                        <p>Kamar dengan pemandangan langsung ke danau, dilengkapi balkon pribadi.</p>
+                        <div class="price">Rp 2.100.000/malam</div>
+                        <a href="#booking" class="btn">Pesan Sekarang</a>
+                    </div>
+                </div>
+                <div class="accomodation-card">
+                    <div class="accomodation-img" style="background-image: url('https://images.unsplash.com/photo-1611892440504-42a792e24d32');"></div>
+                    <div class="accomodation-content">
+                        <h3>Family Suite</h3>
+                        <p>Suite luas dengan dua kamar tidur, cocok untuk liburan bersama keluarga.</p>
+                        <div class="price">Rp 3.800.000/malam</div>
+                        <a href="#booking" class="btn">Pesan Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Packages Section -->
+    <section id="packages" class="packages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Paket Wisata</h2>
+                <p>Berbagai pilihan paket wisata dengan harga eksklusif</p>
+            </div>
+            <div class="package-tabs">
+                <button class="tab-btn active" onclick="openTab('day-trip')">Day Trip</button>
+                <button class="tab-btn" onclick="openTab('weekend')">Weekend Getaway</button>
+                <button class="tab-btn" onclick="openTab('family')">Family Package</button>
+                <button class="tab-btn" onclick="openTab('honeymoon')">Honeymoon</button>
+            </div>
+            <div id="day-trip" class="package-content active">
+                <table class="package-table">
+                    <thead>
+                        <tr>
+                            <th>Paket</th>
+                            <th>Fasilitas</th>
+                            <th>Harga per Orang</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paket Basic</td>
+                            <td>Transportasi, tiket masuk, makan siang, pemandu wisata</td>
+                            <td>Rp 700.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Standard</td>
+                            <td>Transportasi, tiket masuk, makan siang, pemandu wisata, jetski 30 menit</td>
+                            <td>Rp 1.100.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Premium</td>
+                            <td>Transportasi premium, tiket masuk, makan siang prasmanan, pemandu wisata, jetski 1 jam, akses kolam air panas</td>
+                            <td>Rp 1.800.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Eksklusif</td>
+                            <td>Transportasi VIP, tiket masuk, makan siang gourmet, private guide, jetski 2 jam, akses spa terbatas</td>
+                            <td>Rp 2.800.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="weekend" class="package-content">
+                <table class="package-table">
+                    <thead>
+                        <tr>
+                            <th>Paket</th>
+                            <th>Fasilitas</th>
+                            <th>Harga per Orang</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paket 2H1M</td>
+                            <td>Penginapan 1 malam, transportasi, makan 3x, tur danau, kunjungan ke kolam air panas</td>
+                            <td>Rp 2.750.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket 3H2M</td>
+                            <td>Penginapan 2 malam, transportasi, makan 6x, tur danau, jetski 1 jam, akses kolam air panas, api unggun</td>
+                            <td>Rp 4.500.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket 4H3M</td>
+                            <td>Penginapan 3 malam, transportasi VIP, makan prasmanan, semua aktivitas wisata, spa 60 menit</td>
+                            <td>Rp 6.800.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="family" class="package-content">
+                <table class="package-table">
+                    <thead>
+                        <tr>
+                            <th>Paket</th>
+                            <th>Fasilitas</th>
+                            <th>Harga (Keluarga 4 orang)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paket Keluarga Reguler</td>
+                            <td>Penginapan keluarga 2 malam, transportasi, makan 6x, tur danau, aktivitas anak</td>
+                            <td>Rp 9.500.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Keluarga Eksklusif</td>
+                            <td>Penginapan suite keluarga 3 malam, transportasi VIP, makan prasmanan, semua aktivitas wisata, jetski 2 jam, private tour guide</td>
+                            <td>Rp 16.500.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Keluarga Premium</td>
+                            <td>Villa privat 4 malam, transportasi mewah, chef pribadi, semua aktivitas premium, spa keluarga, tur khusus</td>
+                            <td>Rp 28.000.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div id="honeymoon" class="package-content">
+                <table class="package-table">
+                    <thead>
+                        <tr>
+                            <th>Paket</th>
+                            <th>Fasilitas</th>
+                            <th>Harga (Pasangan)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Paket Romantis</td>
+                            <td>Suite lake view 3 malam, makan malam romantis, spa pasangan, tur private, dekorasi kamar</td>
+                            <td>Rp 12.500.000</td>
+                        </tr>
+                        <tr>
+                            <td>Paket Eksklusif</td>
+                            <td>Villa privat 5 malam, semua fasilitas premium, makan gourmet, aktivitas eksklusif, fotografer pribadi</td>
+                            <td>Rp 22.000.000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities">
+        <div class="container">
+            <div class="section-title">
+                <h2>Fasilitas Unggulan</h2>
+                <p>Nikmati berbagai fasilitas terbaik yang kami tawarkan</p>
+            </div>
+            <div class="facilities-grid">
+                <div class="facility-card">
+                    <div class="facility-icon">🏨</div>
+                    <h3>Penginapan Nyaman</h3>
+                    <p>Kamar dengan desain modern dan fasilitas lengkap dengan pemandangan danau yang memukau.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🍽</div>
+                    <h3>Restoran Premium</h3>
+                    <p>Menikmati hidangan lezat dengan bahan-bahan segar dan pemandangan danau yang menakjubkan.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">♨</div>
+                    <h3>Kolam Air Panas</h3>
+                    <p>Berendam dan bersantai di kolam air panas buatan dengan pemandangan alam yang menenangkan.</p>
+                </div>
+                <div class="facility-card">
+                    <div class="facility-icon">🛥</div>
+                    <h3>Jetski & Watersport</h3>
+                    <p>Berbagai aktivitas air menyenangkan termasuk jetski, banana boat, dan masih banyak lagi.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="packages">
+        <div class="container">
+            <div class="section-title">
+                <h2>Galeri Ranu Kumbolo</h2>
+                <p>Keindahan alam Danau Ranu Kumbolo yang mempesona</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item"><img src="Image/Ranu Kumbolo.jpg" alt="Danau Ranu Kumbolo" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+                <div class="gallery-item"><img src="Image/pemandian-air-panas-Bandung.jpg" alt="Pemandian Air Panas Bandung" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+                <div class="gallery-item"><img src="Image/Restoran kayu.jpg" alt="Restoran Kayu" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+                <div class="gallery-item"><img src="Image/Screenshot 2025-09-12 at 08-31-42 Instagram.png" alt="Screenshot Instagram" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+                <div class="gallery-item"><img src="Image/Water Sport.jpg" alt="Water Sport" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+                <div class="gallery-item"><img src="Image/Diving.jpg" alt="Diving" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+                <div class="gallery-item"><img src="Image/Interior Villa.jpg" alt="Interior Villa" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+                <div class="gallery-item"><img src="Image/Malam.jpg" alt="Malam" style="width:100%;height:100%;object-fit:cover;border-radius:10px;"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Ranu Kumbolo Paradise</h3>
+                    <p>Destinasi wisata danau terbaik dengan berbagai fasilitas modern dan pemandangan alam yang menakjubkan.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Kontak Kami</h3>
+                    <p>Email: info@ranukumbolo.com</p>
+                    <p>Telepon: (0351) 8765432</p>
+                    <p>WhatsApp: +62 812 3456 7890</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Alamat</h3>
+                    <p>Jl. Danau Ranu Kumbolo No. 123<br>Kec. Senduro, Kab. Lumajang<br>Jawa Timur</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Link Cepat</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#accomodation">Akomodasi</a></li>
+                        <li><a href="#packages">Paket Wisata</a></li>
+                        <li><a href="#facilities">Fasilitas</a></li>
+                        <li><a href="#gallery">Galeri</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Ranu Kumbolo Paradise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
